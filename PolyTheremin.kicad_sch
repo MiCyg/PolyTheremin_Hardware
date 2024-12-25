@@ -1,0 +1,949 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "050a53ae-c569-43f2-8c33-5c26106e2657")
+	(paper "A4")
+	(title_block
+		(title "PoliTheremin MainBorad")
+		(date "2024-03-01")
+		(company "Miłosz Derżko")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 144.78 171.45)
+		(uuid "04ebd05d-c5be-4f07-8637-b79ef561dd27")
+	)
+	(no_connect
+		(at 153.67 184.15)
+		(uuid "5f6f645a-e402-49b5-bf55-443f42dcb92f")
+	)
+	(no_connect
+		(at 153.67 171.45)
+		(uuid "eaef6ec8-6b24-495c-a982-37c286670afd")
+	)
+	(no_connect
+		(at 144.78 184.15)
+		(uuid "eb3ec759-1102-4080-ac34-72b0fb6274a2")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0ff3f6-3569-4a22-b2bd-d1cc982ef7ad")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221b7f83-5f6c-46b8-a748-674bf332a30b")
+	)
+	(wire
+		(pts
+			(xy 97.79 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a7d3db-817c-4d4d-ba2f-a6cb49ae878a")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ada4cdf-42d6-4bbb-9b7e-6ccab6aa9e2d")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 181.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de6cde0-378b-4c11-80eb-4030d6147f82")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b4eef0-b575-44d2-89a0-acece649f8f5")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb6c770-1778-43b7-90bb-1983d70c37ff")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15778d5-164a-4d04-81fc-c2252151c078")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 181.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b440e5c6-9d45-4978-ba0f-753f38fbdbe7")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95e2560-e92e-4b2c-93ce-da7e90e73be2")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabd7002-d649-4362-a78a-de1df8d21f9b")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef72bbb9-ab19-4304-bef7-8ea659012fc8")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb54839-a586-4b85-9b1b-8310be54d250")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 153.67 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f57343-28c6-4f7a-9dd0-a091cd0cb5d6")
+		(property "Reference" "H2"
+			(at 156.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 156.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "shop_url" "-"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b4b624c-5eb8-4625-a845-63a7d06259a2")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b7f2488-987c-4e1e-b45b-1988e34c5c9c")
+		(property "Reference" "H3"
+			(at 147.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 147.32 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "shop_url" "-"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1712738d-92db-4805-9fcc-a83452abaf93")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 153.67 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee2bb04-8178-4156-9116-84b9eae33fb8")
+		(property "Reference" "H4"
+			(at 156.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 156.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 153.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "shop_url" "-"
+			(at 153.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9cf3cf7-5649-4a1f-98a7-772279b77b42")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7026c454-9ec1-4f47-a3c9-ca25133267ed")
+		(property "Reference" "H1"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 147.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "shop_url" "-"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba9ce534-5047-47c6-bcf7-7598dc1a7f13")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 68.58)
+		(size 39.37 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25962840-8635-4293-8d0b-7c07c02d6e5a")
+		(property "Sheetname" "Proximity_detector"
+			(at 58.42 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Proximity_detector.kicad_sch"
+			(at 58.42 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PD1_FREQ" output
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "766447cc-83bb-4316-afa0-25e1f40aafb6")
+		)
+		(pin "PD2_FREQ" output
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f29766f-24fd-4d49-a5bc-b0981f5958e0")
+		)
+		(pin "PD3_FREQ" output
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc85973f-5872-4515-a1e9-6a156a97954b")
+		)
+		(pin "PD4_FREQ" output
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c960352b-7395-4d2a-af8a-9f67ba1da1fb")
+		)
+		(pin "HET_GEN3" input
+			(at 97.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dbb79b0a-443f-435b-88e6-c5fe18e82ab4")
+		)
+		(pin "HET_GEN4" input
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c31d2c7-5830-485d-b1c1-f2c344040078")
+		)
+		(pin "HET_GEN1" input
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f395c2a1-c3f4-4dc3-962b-1621e4b1a481")
+		)
+		(pin "HET_GEN2" input
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e713521-2c51-4401-87fb-c3d6e73867c9")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 64.77)
+		(size 38.1 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8578e25a-d349-4e45-95a9-c2dd91b1ec98")
+		(property "Sheetname" "AUDIO_DAC"
+			(at 181.61 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AUDIO_DAC.kicad_sch"
+			(at 181.61 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{LDAC}" input
+			(at 181.61 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0315e08-0fb9-4ea2-a65d-132e26506c6a")
+		)
+		(pin "SDI" input
+			(at 181.61 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "073a294b-f6a0-4b30-b863-ad8834f25f4f")
+		)
+		(pin "SCK" input
+			(at 181.61 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ccbed435-4895-45ba-8908-a62ec45b76e5")
+		)
+		(pin "~{CS1}" input
+			(at 181.61 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5b80632-14d1-4350-8dbc-7ae2000e67e7")
+		)
+		(pin "~{CS2}" input
+			(at 181.61 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d0bd00b-e1e8-4e09-abab-6eeae5c14067")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 64.77)
+		(size 43.18 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd4171c1-bf49-459d-a6a0-75db7d2b09c5")
+		(property "Sheetname" "CPU"
+			(at 116.84 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 116.84 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PD4_in" input
+			(at 116.84 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b4a6012-55a6-4d9b-bc77-07f74be47462")
+		)
+		(pin "PD3_in" input
+			(at 116.84 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd8d559b-f3b2-4bfb-9f19-24a6b00b15ea")
+		)
+		(pin "PD1_in" input
+			(at 116.84 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1b67712-57a3-4612-9559-4c31c248421d")
+		)
+		(pin "PD2_in" input
+			(at 116.84 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18c57c2c-e33b-4047-a373-e8b27e2f081e")
+		)
+		(pin "~{DAC_SPI_CS2}" output
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "afe6f232-12f5-484e-95c2-560dc74b153b")
+		)
+		(pin "~{DAC_SPI_CS1}" output
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa3687fa-2cab-4223-a687-fcb9b4eb671c")
+		)
+		(pin "DAC_SPI_CLK" output
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45a1d983-dbfe-44de-937f-f74ffea24a7a")
+		)
+		(pin "~{DAC_LDAC}" output
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "823d8ee5-01b3-4319-925e-cf18321cafbd")
+		)
+		(pin "DAC_SPI_TX" output
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a6aa883-78cf-4c0c-84f7-670eb890189c")
+		)
+		(pin "HET_GET2" output
+			(at 116.84 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3feac76-0263-4615-b800-011094193810")
+		)
+		(pin "HET_GET4" output
+			(at 116.84 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec41cc8a-73de-4f5c-a55c-674f56c0c1cf")
+		)
+		(pin "HET_GET1" output
+			(at 116.84 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "420906c1-3913-4ace-9a35-3a7443fba436")
+		)
+		(pin "HET_GET3" output
+			(at 116.84 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d05ed37c-8fbd-4883-bc5f-fdb46d025f80")
+		)
+		(instances
+			(project "PolyTheremin"
+				(path "/050a53ae-c569-43f2-8c33-5c26106e2657"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

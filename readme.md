@@ -17,7 +17,7 @@ Its ultimate goal is to provide a functional example of a PolyTheremin with four
 - **Microcontroller**: RP2040  
 - **LED**: One addressable LED for status indication  
 - **Oscillator Modules**: Four theremin modules, independently connected to the microcontroller  
-- **Audio Output**: Four 16-bit DACs with a mixer and a 6.3mm jack socket  
+- **Audio Output**: Four 12-bit DACs (MCP4922) with a mixer and a 6.3mm jack socket  
 
 
 # Block Schematic  

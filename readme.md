@@ -1,5 +1,7 @@
 
 # PolyTheremin Test Platform  
+More details are available in the [PolyTheremin repository](https://github.com/MiCyg/PolyTheremin) (currently under development).
+
 ![PolyTheremin Test Platform](doc/testPlatform.png)
 
 # Description  

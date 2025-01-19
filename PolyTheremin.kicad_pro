@@ -877,14 +877,14 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "PolyTheremin.emn",
       "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3d/PolyTheremin.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "PolyTheremin.wrl"
     },
     "page_layout_descr_file": ""
   },

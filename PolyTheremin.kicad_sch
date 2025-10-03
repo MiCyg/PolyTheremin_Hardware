@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "050a53ae-c569-43f2-8c33-5c26106e2657")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -111,6 +115,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(no_connect
@@ -570,6 +575,10 @@
 	(sheet
 		(at 58.42 68.58)
 		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -599,83 +608,83 @@
 		)
 		(pin "PD1_FREQ" output
 			(at 97.79 71.12 0)
+			(uuid "766447cc-83bb-4316-afa0-25e1f40aafb6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "766447cc-83bb-4316-afa0-25e1f40aafb6")
 		)
 		(pin "PD2_FREQ" output
 			(at 97.79 73.66 0)
+			(uuid "4f29766f-24fd-4d49-a5bc-b0981f5958e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f29766f-24fd-4d49-a5bc-b0981f5958e0")
 		)
 		(pin "PD3_FREQ" output
 			(at 97.79 76.2 0)
+			(uuid "bc85973f-5872-4515-a1e9-6a156a97954b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bc85973f-5872-4515-a1e9-6a156a97954b")
 		)
 		(pin "PD4_FREQ" output
 			(at 97.79 78.74 0)
+			(uuid "c960352b-7395-4d2a-af8a-9f67ba1da1fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c960352b-7395-4d2a-af8a-9f67ba1da1fb")
 		)
 		(pin "HET_GEN3" input
 			(at 97.79 90.17 0)
+			(uuid "dbb79b0a-443f-435b-88e6-c5fe18e82ab4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dbb79b0a-443f-435b-88e6-c5fe18e82ab4")
 		)
 		(pin "HET_GEN4" input
 			(at 97.79 92.71 0)
+			(uuid "2c31d2c7-5830-485d-b1c1-f2c344040078")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2c31d2c7-5830-485d-b1c1-f2c344040078")
 		)
 		(pin "HET_GEN1" input
 			(at 97.79 85.09 0)
+			(uuid "f395c2a1-c3f4-4dc3-962b-1621e4b1a481")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f395c2a1-c3f4-4dc3-962b-1621e4b1a481")
 		)
 		(pin "HET_GEN2" input
 			(at 97.79 87.63 0)
+			(uuid "1e713521-2c51-4401-87fb-c3d6e73867c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1e713521-2c51-4401-87fb-c3d6e73867c9")
 		)
 		(instances
 			(project "PolyTheremin"
@@ -688,6 +697,10 @@
 	(sheet
 		(at 181.61 64.77)
 		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -717,53 +730,53 @@
 		)
 		(pin "~{LDAC}" input
 			(at 181.61 71.12 180)
+			(uuid "c0315e08-0fb9-4ea2-a65d-132e26506c6a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c0315e08-0fb9-4ea2-a65d-132e26506c6a")
 		)
 		(pin "SDI" input
 			(at 181.61 73.66 180)
+			(uuid "073a294b-f6a0-4b30-b863-ad8834f25f4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "073a294b-f6a0-4b30-b863-ad8834f25f4f")
 		)
 		(pin "SCK" input
 			(at 181.61 76.2 180)
+			(uuid "ccbed435-4895-45ba-8908-a62ec45b76e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ccbed435-4895-45ba-8908-a62ec45b76e5")
 		)
 		(pin "~{CS1}" input
 			(at 181.61 78.74 180)
+			(uuid "e5b80632-14d1-4350-8dbc-7ae2000e67e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5b80632-14d1-4350-8dbc-7ae2000e67e7")
 		)
 		(pin "~{CS2}" input
 			(at 181.61 81.28 180)
+			(uuid "8d0bd00b-e1e8-4e09-abab-6eeae5c14067")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d0bd00b-e1e8-4e09-abab-6eeae5c14067")
 		)
 		(instances
 			(project "PolyTheremin"
@@ -776,6 +789,10 @@
 	(sheet
 		(at 116.84 64.77)
 		(size 43.18 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -805,133 +822,133 @@
 		)
 		(pin "PD4_in" input
 			(at 116.84 78.74 180)
+			(uuid "6b4a6012-55a6-4d9b-bc77-07f74be47462")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6b4a6012-55a6-4d9b-bc77-07f74be47462")
 		)
 		(pin "PD3_in" input
 			(at 116.84 76.2 180)
+			(uuid "cd8d559b-f3b2-4bfb-9f19-24a6b00b15ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cd8d559b-f3b2-4bfb-9f19-24a6b00b15ea")
 		)
 		(pin "PD1_in" input
 			(at 116.84 71.12 180)
+			(uuid "a1b67712-57a3-4612-9559-4c31c248421d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a1b67712-57a3-4612-9559-4c31c248421d")
 		)
 		(pin "PD2_in" input
 			(at 116.84 73.66 180)
+			(uuid "18c57c2c-e33b-4047-a373-e8b27e2f081e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18c57c2c-e33b-4047-a373-e8b27e2f081e")
 		)
 		(pin "~{DAC_SPI_CS2}" output
 			(at 160.02 81.28 0)
+			(uuid "afe6f232-12f5-484e-95c2-560dc74b153b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "afe6f232-12f5-484e-95c2-560dc74b153b")
 		)
 		(pin "~{DAC_SPI_CS1}" output
 			(at 160.02 78.74 0)
+			(uuid "fa3687fa-2cab-4223-a687-fcb9b4eb671c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa3687fa-2cab-4223-a687-fcb9b4eb671c")
 		)
 		(pin "DAC_SPI_CLK" output
 			(at 160.02 76.2 0)
+			(uuid "45a1d983-dbfe-44de-937f-f74ffea24a7a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45a1d983-dbfe-44de-937f-f74ffea24a7a")
 		)
 		(pin "~{DAC_LDAC}" output
 			(at 160.02 71.12 0)
+			(uuid "823d8ee5-01b3-4319-925e-cf18321cafbd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "823d8ee5-01b3-4319-925e-cf18321cafbd")
 		)
 		(pin "DAC_SPI_TX" output
 			(at 160.02 73.66 0)
+			(uuid "2a6aa883-78cf-4c0c-84f7-670eb890189c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2a6aa883-78cf-4c0c-84f7-670eb890189c")
 		)
 		(pin "HET_GET2" output
 			(at 116.84 87.63 180)
+			(uuid "f3feac76-0263-4615-b800-011094193810")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f3feac76-0263-4615-b800-011094193810")
 		)
 		(pin "HET_GET4" output
 			(at 116.84 92.71 180)
+			(uuid "ec41cc8a-73de-4f5c-a55c-674f56c0c1cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec41cc8a-73de-4f5c-a55c-674f56c0c1cf")
 		)
 		(pin "HET_GET1" output
 			(at 116.84 85.09 180)
+			(uuid "420906c1-3913-4ace-9a35-3a7443fba436")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "420906c1-3913-4ace-9a35-3a7443fba436")
 		)
 		(pin "HET_GET3" output
 			(at 116.84 90.17 180)
+			(uuid "d05ed37c-8fbd-4883-bc5f-fdb46d025f80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d05ed37c-8fbd-4883-bc5f-fdb46d025f80")
 		)
 		(instances
 			(project "PolyTheremin"
@@ -946,4 +963,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
